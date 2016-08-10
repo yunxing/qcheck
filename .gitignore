@@ -1,0 +1,13 @@
+.*.swp
+.*.swo
+_build
+*.native
+.session
+TAGS
+*.docdir
+setup.data
+setup.log
+man
+qcheck.install
+*.tar.gz
+*.byte
