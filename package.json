@@ -1,0 +1,7 @@
+{
+    "version": "0.4",
+    "name": "qcheck",
+    "scripts": {
+        "postinstall": "eval $(dependencyEnv) && ocaml setup.ml -configure --prefix $opam_prefix --${ounit_enable:-disable}-ounit && make all install_file && make install"
+    }
+}
